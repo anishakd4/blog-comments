@@ -2,8 +2,8 @@ To run the project enter:
 
 install all the dependencies using below command
 
-** npm install **
+**npm install**
 
 run project using below command
 
-** gatsby develop **
+**gatsby develop**
