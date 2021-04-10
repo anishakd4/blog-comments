@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple with commenting system using Firebase",
+  "version": "0.1.0",
+  "author": "Aman Thakur",
+  "dependencies": {
+    "firebase": "^8.3.3",
+    "gatsby": "^2.21.37",
+    "gatsby-image": "^2.4.4",
+    "gatsby-plugin-manifest": "^2.12.1",
+    "gatsby-plugin-offline": "^3.2.3",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sharp": "^2.6.4",
+    "gatsby-source-filesystem": "^2.3.4",
+    "gatsby-transformer-remark": "^2.8.9",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "moment": "^2.27.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby-plugin-styled-components": "^3.3.1",
+    "prettier": "2.0.5",
+    "styled-components": "^5.1.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
