@@ -1,3 +1,7 @@
-This is project made to go along with Smashing Magazine's Guest Post.
 To run the project enter:
-`gatsby develop'
+
+install all the dependencies using below command
+npm install
+
+run project using below command
+gatsby develop
